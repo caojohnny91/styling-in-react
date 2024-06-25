@@ -1,6 +1,8 @@
+// src/components/example-1-normal-css/Button.jsx
+import './Button.css';
+
 const Button = ({ buttonText }) => {
-    return <button>{buttonText}</button>;
-  };
-  
-  export default Button;
-  
+  return <button className="btn">{buttonText}</button>;
+};
+
+export default Button;

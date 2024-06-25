@@ -1,0 +1,12 @@
+/* src/components/example-1-normal-css/Button.css */
+.btn {
+    background-color: #2465f1;
+    border-radius: 8px;
+    color: white;
+    font-size: 24pt;
+    padding: 15px 50px;
+    width: 300px;
+  }
+  
+  /* Benefits and pitfalls
+Using external CSS files to style React components is straightforward and familiar. However, it’s important to remember that styles defined in these files are global. This means that if you use the same class or id names in different files, they might conflict with each other. */
